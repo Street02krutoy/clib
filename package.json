@@ -1,0 +1,17 @@
+{
+  "name": "console-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/src/index.js",
+  "scripts": {
+    "run": "npx tsc && node . "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
