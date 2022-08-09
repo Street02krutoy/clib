@@ -1,11 +1,17 @@
 {
-  "name": "console-bot",
+  "name": "clib",
   "version": "1.0.0",
   "description": "",
-  "main": "./build/src/index.js",
-  "scripts": {
-    "run": "npx tsc && node . "
+  "exports": {
+    ".": [
+      {
+        "require": "./src/index.ts",
+        "import": "./src/index.ts"
+      }
+    ],
+    "./": "./"
   },
+  "typings": "./src/index.d.ts",
   "author": "",
   "license": "ISC",
   "dependencies": {
